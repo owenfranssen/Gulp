@@ -1,0 +1,43 @@
+{
+  "environment": "dev",
+  "local": true,
+  "remote_uri": "http://PROJECT.SITE/",
+
+  "ftp": {
+    "user": "USERNAME",
+    "password": "PASSWORD",
+    "host": "FTP.SERVER",
+    "remoteFolder": "/public_html",
+    "port": 21
+  },
+
+  "paths": {
+    "src": {
+      "base": "_src/",
+      "fonts": "_src/fonts/",
+      "img": "_src/img/",
+      "js": "_src/js/",
+      "sass": "_src/scss/"
+    },
+    "dev": {
+      "base": "_tmp/",
+      "css": "_tmp/css/",
+      "fonts": "_tmp/fonts/",
+      "img": "_tmp/img/",
+      "js": "_tmp/js/",
+      "proxy": "http://localhost"
+    },
+    "dist": {
+      "base": "_dist/",
+      "css": "_dist/css/",
+      "fonts": "_dist/fonts/",
+      "img": "_dist/img/",
+      "js": "_dist/js/"
+    }
+  },
+
+  "sources": {
+    "boilerplate": "/Users/owenfranssen/Sites/Resources/HTML/-Boilerplates/Bootstrap-NPM/",
+    "node": "node_modules/"
+  }
+}
